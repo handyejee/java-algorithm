@@ -35,11 +35,10 @@ public class B3079 {
 
         while (start <= end){
             long mid = (start + end) / 2; // 총 걸리는 시간의 중간 값 구하기
-            long count;
             long sum = 0;
 
             for(int j = 0; j < N;  j++){
-                count = mid / friends[j];// 검색대 당 입국심사 시간 구하기
+                long count = mid / friends[j];// 검색대 당 입국심사 시간 구하기
 //                System.out.println(count);
 
                 if (sum >= M){
