@@ -16,13 +16,14 @@ public class B11399 {
         // StringTokenizer는 초기화 시점에 지정된 입력 줄을 기준으로 토큰을 나누기 때문에, 적절한 데이터가 전달되도록 초기화 순서를 맞춰야 힌다.
 
         int[] pArr = new int[N];
-        int sum = 0;
-        int total = 0;
 
         for (int i = 0; i < N; i++) {
             pArr[i] = Integer.parseInt(st.nextToken()); // 각 사람이 인출하는데 걸리는 시간
         }
         Arrays.sort(pArr);
+
+        int sum = 0;
+        int total = 0;
 
         for (int i = 0; i < N; i++) {
             sum += pArr[i];
