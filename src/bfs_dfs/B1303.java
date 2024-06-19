@@ -16,8 +16,8 @@ public class B1303 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        N = Integer.parseInt(br.readLine()); // 전쟁터 가로크기
-        M = Integer.parseInt(br.readLine()); // 전쟁터 세로크기
+        N = Integer.parseInt(st.nextToken()); // 전쟁터 가로크기
+        M = Integer.parseInt(st.nextToken()); // 전쟁터 세로크기
         team = new char[M][N]; // 전쟁배열
         visit = new boolean[M][N]; // 방문확인 배열
 
