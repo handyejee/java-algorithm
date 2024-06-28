@@ -2,6 +2,7 @@ package array;
 
 import java.util.HashSet;
 
+// 프로그래머스 두 개 뽑아서 더하기 문제
 class P8644 {
     public int[] solution(int[] numbers) {
         HashSet<Integer> set = new HashSet<>(); // 숫자 더한 값 넣어주기 위한 set 컬렉션 선언
