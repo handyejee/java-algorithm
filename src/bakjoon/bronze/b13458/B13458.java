@@ -1,4 +1,4 @@
-package bakjoon.b13458;
+package bakjoon.bronze.b13458;
 
 import java.io.*;
 import java.util.*;

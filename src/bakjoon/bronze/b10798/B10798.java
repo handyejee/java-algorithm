@@ -1,7 +1,6 @@
-package bakjoon.b10798;
+package bakjoon.bronze.b10798;
 
 import java.io.*;
-import java.util.*;
 
 public class B10798 {
     public static void main(String[] args) throws IOException {
