@@ -1,4 +1,4 @@
-package bakjoon.gold;
+package bakjoon.gold.b2015;
 
 import java.util.*;
 import java.io.*;
