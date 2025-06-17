@@ -33,7 +33,7 @@ public class B2003 {
            sum += numberArray[right];
 
             while(sum > M) {
-                sum -= numberArray[left];
+                sum -= numberArray[left++];
             }
 
             if (sum == M) {
