@@ -1,4 +1,4 @@
-package binary_search;
+package bakjoon.silver.b2805;
 
 import java.util.Scanner;
 
@@ -11,10 +11,9 @@ public class B2805 {
         int N = sc.nextInt(); // 나무의 수
         int M = sc.nextInt(); // 필요한 나무 길이
 
-        int trees[] = new int[N]; // 나무 담을 배열
+        int[] trees = new int[N]; // 나무 담을 배열
 
-        int start = 0;
-        int end = 0;
+        int start = 0, end = 0;
 
         for (int i = 0; i < N; i++){ // 나무 갯수만큼 나무 길이 입력 받음
             trees[i] = sc.nextInt();
@@ -35,7 +34,7 @@ public class B2805 {
                 }
             }
 
-            if (sum < M){ // M 값이 총 합보다 작은 경우 중간값을 mid 값으로 바꾼다
+            if (sum >= M){ // M 값이 총 합보다 작은 경우 중간값을 mid 값으로 바꾼다
                 end = mid;
             } else { // max값이 필요한 나무길이보다 큰 경우
                 start = mid + 1;
